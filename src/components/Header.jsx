@@ -11,10 +11,10 @@ function Header() {
   // );
   return (
     <section id="about" className="about">
-      <h2>About Me</h2>
+      {/* <h2>ABOUT</h2> */}
       {/* <div className="header"> */}
         <h1>Gayathri Anandhan</h1>
-        <h3>Java Full Stack Developer</h3>
+        <h3>(Java Full Stack Developer)</h3>
         {/* </div> */}
         <p>
           I am a Java Full Stack Developer with experience in SQL and ERP systems.

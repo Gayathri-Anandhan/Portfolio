@@ -2,7 +2,7 @@ import '../styles/Certifications.css';
 function Certifications() {
     return (
         <section id="certifications">
-            <h2 id="certifications">Certifications</h2>
+            <h2 id="certifications">CERTIFICATIONS</h2>
 
             <div className="projects-container">
 
