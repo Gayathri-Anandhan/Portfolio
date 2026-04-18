@@ -1,0 +1,48 @@
+/* ===== SECTION ===== */
+#certifications {
+  max-width: 1200px;
+  margin: 120px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+#certifications h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+/* ===== CONTAINER ===== */
+.certifications-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+/* ===== CARD ===== */
+.cert-card {
+  width: 320px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+}
+
+/* ===== TEXT ===== */
+.cert-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.cert-card p {
+  font-size: 14px;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}

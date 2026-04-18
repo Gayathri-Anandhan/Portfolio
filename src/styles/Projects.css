@@ -1,0 +1,104 @@
+/* ===== SECTION ===== */
+.projects {
+  max-width: 1200px;
+  margin: 120px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+/* ===== CONTAINER ===== */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+/* ===== CARD ===== */
+.project-card {
+  width: 340px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+}
+
+/* ===== TEXT ===== */
+.project-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.project-card ul {
+  padding-left: 18px;
+  margin-bottom: 15px;
+}
+
+.project-card li {
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+/* ===== BUTTON CONTAINER ===== */
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* ===== BUTTON BASE ===== */
+.buttons a {
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none !important;
+  color: white !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* ===== DEMO BUTTON ===== */
+.demo {
+  background-color: #007bff;
+}
+
+.demo:hover {
+  background-color: #0056b3;
+}
+
+/* ===== CODE BUTTON ===== */
+.code {
+  background-color: #333;
+}
+
+.code:hover {
+  background-color: #111;
+}
+
+/* ===== REMOVE DEFAULT LINK STYLES ===== */
+.buttons a:link,
+.buttons a:visited {
+  text-decoration: none;
+  color: white;
+}

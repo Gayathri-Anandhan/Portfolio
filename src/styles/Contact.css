@@ -1,0 +1,31 @@
+/* ===== SECTION ===== */
+#Contact {
+  max-width: 800px;
+  margin: 120px auto;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+/* ===== HEADING ===== */
+#Contact h2 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+
+/* ===== TEXT ===== */
+#Contact p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* ===== LINKS ===== */
+#Contact a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+#Contact a:hover {
+  text-decoration: underline;
+}
