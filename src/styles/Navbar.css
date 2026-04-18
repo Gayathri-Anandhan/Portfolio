@@ -9,7 +9,17 @@
   padding: 15px 40px;
   z-index: 1000;
 }
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.nav-links li {
+  margin: 0 15px;
+}
 
+.nav-links a:hover {
+  color: #007bff;
+}
 .nav-links {
   display: flex;
   gap: 20px;
