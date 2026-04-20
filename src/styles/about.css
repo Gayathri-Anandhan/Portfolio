@@ -1,4 +1,4 @@
-.about {
+/* .about {
   max-width: 1000px;
   margin: 100px auto;
   text-align: center;
@@ -17,4 +17,23 @@ section {
 
 .skills {
   background-color: #f9f9f9;
+} */
+
+/* ABOUT SECTION */
+.about {
+  text-align: center;
+}
+
+/* HEADING */
+.about h2 {
+  margin-bottom: 20px;
+}
+
+/* PARAGRAPH */
+.about p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.7;
+  font-size: 15px;
+  color: #555;
 }

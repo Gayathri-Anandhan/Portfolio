@@ -1,4 +1,4 @@
-.navbar {
+/* .navbar {
   position: fixed;
   top: 0;
   width: 100%;
@@ -25,4 +25,67 @@
   gap: 20px;
   color: white;
   list-style: none;
+} */
+
+/* ===== NAVBAR ===== */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  background-color: #111;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 15px 50px;
+
+  z-index: 1000;
+}
+
+/* LOGO */
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* NAV LINKS */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+  list-style: none;
+}
+
+/* LINKS */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.nav-links a:hover {
+  color: #007bff;
+}
+
+/* ACTIVE FEEL (subtle underline animation) */
+.nav-links a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0;
+  background: #007bff;
+  transition: 0.3s;
+  margin-top: 3px;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
 }

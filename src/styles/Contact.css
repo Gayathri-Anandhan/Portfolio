@@ -1,4 +1,4 @@
-/* ===== SECTION ===== */
+/* 
 #contact {
   max-width: 100%;
   margin: 120px auto;
@@ -7,7 +7,7 @@
 
   display: flex;
   flex-direction: column;
-  align-items: center;   /* centers everything */
+  align-items: center; 
 }
 
 #contact h2 {
@@ -16,21 +16,20 @@
   font-weight: 600;
 }
 
-/* ===== CARD ===== */
 .contact-card {
   background: white;
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 
-  width: 100%;
   max-width: 500px;
 
-  margin: 0 auto;           /* centers horizontally */
+  margin: 0 auto;         
   text-align: left;
+  width: 260px;
+  min-height: 220px;
 }
 
-/* ===== TEXT ===== */
 .contact-card p {
   font-size: 16px;
   margin-bottom: 15px;
@@ -38,13 +37,11 @@
   gap: 10px;
 }
 
-/* LABEL */
 .contact-card span {
   font-weight: 600;
   width: 90px;
 }
 
-/* LINKS */
 .contact-card a {
   text-decoration: none;
   color: #007bff;
@@ -56,4 +53,55 @@
 .contact-card:hover {
   transform: translateY(-3px);
   transition: 0.3s;
+} */
+
+/* ===== SECTION ===== */
+#contact {
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ===== HEADING ===== */
+#contact h2 {
+  margin-bottom: 30px;
+}
+
+/* ===== CARD ===== */
+.contact-card {
+  width: 100%;
+  max-width: 500px;
+
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  text-align: left;
+}
+
+/* ===== ROW ===== */
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* LABEL */
+.contact-row span {
+  font-weight: 600;
+  min-width: 90px;
+}
+
+/* LINKS */
+.contact-row a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.contact-row a:hover {
+  text-decoration: underline;
 }
