@@ -55,6 +55,8 @@
 /* ===== HEADING ===== */
 .skills h2 {
   margin-bottom: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 /* ===== CONTAINER ===== */
@@ -90,4 +92,13 @@
 .skill-box li {
   margin-bottom: 6px;
   line-height: 1.6;
+  position: relative;
+  padding-left: 10px;
+}
+
+.skill-box li::before {
+  content: "✔";
+  position: absolute;
+  left: -10px;
+  color: #007bff;
 }

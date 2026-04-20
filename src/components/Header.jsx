@@ -11,17 +11,18 @@ function Header() {
   // );
   return (
     <section id="about" className="about">
-      {/* <h2>ABOUT</h2> */}
-      {/* <div className="header"> */}
-        <h1>Gayathri Anandhan</h1>
+      {/* <h1>Gayathri Anandhan</h1>
         <h3>(Java Full Stack Developer)</h3>
-        {/* </div> */}
         <p>
           I am a Java Full Stack Developer with experience in SQL and ERP systems.
           I specialize in building scalable web applications using Java, Spring Boot,
           React, and MySQL.
-        </p>
-      
+        </p> */}
+      <h1>Hi, I'm Gayathri</h1>
+      <h3>Java Full Stack Developer</h3>
+      <p>I build scalable web applications using Java, Spring Boot, React and MySQL.</p>
+      <a href="#projects" className="hero-btn">View My Work</a>
+
     </section>
   );
 }

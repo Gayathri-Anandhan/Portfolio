@@ -27,6 +27,8 @@ section {
 /* HEADING */
 .about h2 {
   margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 /* PARAGRAPH */
