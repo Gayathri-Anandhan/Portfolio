@@ -20,7 +20,10 @@ function Header() {
         <div className="hero-buttons">
           <a href="#projects" className="btn primary">View Projects</a>
 
-          <a href="/resume.pdf" download className="btn secondary">
+          {/* <a href="/resume.pdf" download className="btn secondary"> */}
+          <a
+            href="https://drive.google.com/uc?export=download&id=183lrs-nytpWRs1WC7rwU0Ne9hMo9rgTZ"
+            className="btn secondary">
             Download Resume
           </a>
 
