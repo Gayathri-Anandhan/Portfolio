@@ -1,85 +1,72 @@
-import '../styles/projects.css';
+import "../styles/projects.css";
 
 function Projects() {
-    return (
-        <section id="projects" className="projects">
-            <h2 id="projects">MY PROJECTS</h2>
-            <div className="projects-container">
+  return (
+    <section id="projects" className="projects-section">
 
-                <div className="project-card">
-                    <h3>Hotel Management System – Full Stack Booking App</h3>
-                    <p>
-                        A comprehensive web application built using Spring Boot that allows users to search for hotels,
-                        view available rooms, and make bookings. It supports user authentication with role-based access
-                        for users and administrators, providing a complete booking flow.
-                    </p>
-                    <p><b>Tech Stack:</b></p>
-                    <ul>
-                        <li><b>Backend:</b> Spring Boot, JPA, REST APIs</li>
-                        <li><b>Frontend:</b> React</li>
-                        <li><b>Database:</b> MySQL</li>
-                        <li><b>Security:</b> Spring Security (Authentication & Role-based Access)</li>
-                        <li><b>Payments:</b> Razorpay Integration</li>
-                        <li><b>Deployment:</b> Render (Backend), Vercel (Frontend)</li>
-                    </ul>
+      <h2 className="section-title">Projects</h2>
 
-                    <div className="buttons">
-                        <a className="demo" href="https://hotelbookappfrontend.vercel.app/" target="_blank">Live Demo</a>
-                        <a className="code" href="https://github.com/Gayathri-Anandhan/HotelBook_App" target="_blank">Frontend Code</a>
-                        <a className="code" href="https://github.com/Gayathri-Anandhan/HotelBook_App" target="_blank">Backend Code</a>
-                    </div>
-                </div>
+      <div className="projects-wrapper">
 
-                <div className="project-card">
-                    <h3>E-Commerce Platform – Online Shopping System</h3>
-                    <p>
-                        Full stack e-commerce web application that enables users to browse products, add items to a cart,
-                        and securely complete purchases using Razorpay integration. Built with Spring Boot and MySQL,
-                        supporting user roles and admin management.
-                    </p>
-                    <p><b>Tech Stack:</b></p>
-                    <ul>
-                        <li><b>Backend:</b> Spring Boot (REST APIs)</li>
-                        <li><b>Frontend:</b> React</li>
-                        <li><b>Database:</b> MySQL</li>
-                        <li><b>Security:</b> Spring Security (Authentication & Role-based Access)</li>
-                        <li><b>Payment:</b> Razorpay Integration</li>
-                        <li><b>Deployment:</b> Render (Backend), Vercel (Frontend)</li>
-                    </ul>
+        {/* PROJECT 1 */}
+        <div className="project-block">
+          <h3>Hotel Management System</h3>
+          <p>
+            Full stack booking application with hotel search, room booking,
+            role-based authentication and payment integration.
+          </p>
 
-                    <div className="buttons">
-                        <a className="demo" href="https://e-commerce-app-frontend-xi-nine.vercel.app/" target="_blank">Live Demo</a>
-                        <a className="code" href="https://github.com/Gayathri-Anandhan/ECommerceApp_Frontend" target="_blank">Frontend Code</a>
-                        <a className="code" href="https://github.com/Gayathri-Anandhan/ECommerceApp_Backend" target="_blank">Backend Code</a>
-                    </div>
-                </div>
+          <p className="tech">
+            Spring Boot • React • MySQL • Spring Security • Razorpay
+          </p>
 
-                <div className="project-card">
-                    <h3> RealNest – Full Stack Real Estate Platform</h3>
-                    <p>
-                        Full stack real estate application that enables users to list, browse, and manage properties.
-                        Includes role-based access, property approval system, search functionality, and detailed views.
-                    </p>
-                    <p><b>Tech Stack:</b></p>
-                    <ul>
-                        <li><b>Backend:</b> Spring Boot (REST APIs, Business Logic)</li>
-                        <li><b>Frontend:</b> React (Axios, React Router)</li>
-                        <li><b>Database:</b> MySQL</li>
-                        <li><b>Security:</b> Spring Security with JWT Authentication</li>
-                        <li><b>Deployment:</b> Render (Backend), Vercel (Frontend)</li>
-                    </ul>
+          <div className="project-links">
+            <a href="https://hotelbookappfrontend.vercel.app/" target="_blank">Live</a>
+            <a href="https://github.com/Gayathri-Anandhan/HotelBook_App" target="_blank">Frontend</a>
+            <a href="https://github.com/Gayathri-Anandhan/HotelBook_App" target="_blank">Backend</a>
+          </div>
+        </div>
 
-                    <div className="buttons">
-                        <a className="demo" href="https://real-nest-frontend.vercel.app/" target="_blank">Live Demo</a>
-                        <a className="code" href="https://github.com/Gayathri-Anandhan/RealNest_frontend" target="_blank">Frontend Code</a>
-                        <a className="code" href="https://github.com/Gayathri-Anandhan/RealNest_backend" target="_blank">Backend Code</a>
-                    </div>
-                </div>
+        {/* PROJECT 2 */}
+        <div className="project-block">
+          <h3>E-Commerce Platform</h3>
+          <p>
+            Online shopping system with cart, product browsing and secure payment integration.
+          </p>
 
-            </div>
-        </section>
+          <p className="tech">
+            Spring Boot • React • MySQL • Spring Security • Razorpay
+          </p>
 
-    );
+          <div className="project-links">
+            <a href="https://e-commerce-app-frontend-xi-nine.vercel.app/" target="_blank">Live</a>
+            <a href="https://github.com/Gayathri-Anandhan/ECommerceApp_Frontend" target="_blank">Frontend</a>
+            <a href="https://github.com/Gayathri-Anandhan/ECommerceApp_Backend" target="_blank">Backend</a>
+          </div>
+        </div>
+
+        {/* PROJECT 3 */}
+        <div className="project-block">
+          <h3>RealNest – Real Estate Platform</h3>
+          <p>
+            Property listing system with JWT authentication, role-based access and search functionality.
+          </p>
+
+          <p className="tech">
+            Spring Boot • React • MySQL • JWT • REST APIs
+          </p>
+
+          <div className="project-links">
+            <a href="https://real-nest-frontend.vercel.app/" target="_blank">Live</a>
+            <a href="https://github.com/Gayathri-Anandhan/RealNest_frontend" target="_blank">Frontend</a>
+            <a href="https://github.com/Gayathri-Anandhan/RealNest_backend" target="_blank">Backend</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+  );
 }
 
 export default Projects;

@@ -1,0 +1,111 @@
+.education-section {
+  padding: 80px 20px;
+  background: #0f172a; /* dark modern background */
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  color: #38bdf8;
+  letter-spacing: 1px;
+}
+
+/* Timeline container */
+.timeline {
+  position: relative;
+  max-width: 900px;
+  margin: auto;
+  padding-left: 20px;
+}
+
+/* vertical line */
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 0;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(#38bdf8, #6366f1);
+}
+
+/* each item */
+.timeline-item {
+  position: relative;
+  margin-bottom: 50px;
+  padding-left: 50px;
+}
+
+/* dot */
+.timeline-dot {
+  position: absolute;
+  left: 12px;
+  top: 8px;
+  width: 18px;
+  height: 18px;
+  background: #38bdf8;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #38bdf8;
+}
+
+/* card */
+.timeline-content {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.timeline-content:hover {
+  transform: translateY(-5px);
+}
+
+/* text styling */
+.timeline-content h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: #f8fafc;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #cbd5e1;
+  margin: 5px 0;
+}
+
+.place {
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+.year {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0.85rem;
+  color: #60a5fa;
+}
+
+.score {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #34d399;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .timeline {
+    padding-left: 10px;
+  }
+
+  .timeline-item {
+    padding-left: 40px;
+  }
+}

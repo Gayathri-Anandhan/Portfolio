@@ -1,106 +1,88 @@
-/* 
-#certifications {
-  max-width: 1200px;
-  margin: 120px auto;
-  padding: 20px;
+.certifications-section {
+  padding: 80px 20px;
+  background: radial-gradient(circle at top, #0f172a, #020617);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+/* SAME TITLE STYLE */
+.section-title {
   text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  color: #38bdf8;
 }
 
-#certifications h2 {
-  font-size: 30px;
-  margin-bottom: 40px;
-  font-weight: 600;
-}
-
+/* 🔥 SAME WIDTH + 2 PER ROW */
 .certifications-container {
-  display: flex;
-  flex-wrap: wrap;
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   gap: 25px;
-  justify-content: center;
 }
 
-.cert-card {
-  
-  width: 260px;
-  min-height: 220px;
-  background: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: left;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
+/* SAME CARD STYLE */
+.certification-card {
+  background: #1e293b;
+  padding: 20px 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  border-left: 3px solid transparent;
+  transition: 0.3s ease;
 }
 
-.cert-card:hover {
+.certification-card:hover {
   transform: translateY(-5px);
+  border-left: 3px solid #38bdf8;
 }
 
-.cert-card h3 {
-  font-size: 18px;
+/* TITLE */
+.certification-card h3 {
   margin-bottom: 10px;
+  color: #f8fafc;
 }
 
-.cert-card p {
+/* DESCRIPTION */
+.certification-card p {
   font-size: 14px;
-  margin-bottom: 8px;
-  line-height: 1.5;
-} */
-
-/* ===== SECTION ===== */
-#certifications {
-  text-align: center;
-}
-
-/* ===== HEADING ===== */
-#certifications h2 {
-  margin-bottom: 40px;
-  font-weight: 700;
-  letter-spacing: 1px;
-}
-
-/* ===== CONTAINER ===== */
-.certifications-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 25px;
-}
-
-/* ===== CARD ===== */
-.cert-card {
-  width: 260px;
-  min-height: 240px;
-
-  text-align: left;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-/* ===== TEXT ===== */
-.cert-card h3 {
-  margin-bottom: 10px;
-}
-
-.cert-card p {
-  margin-bottom: 8px;
+  color: #cbd5e1;
   line-height: 1.6;
 }
 
-/* ===== BUTTON (IMPORTANT for marks) */
-.cert-btn {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 6px 12px;
-  background-color: #007bff;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
+/* ORGANIZATION */
+.certification-card .org {
+  margin-top: 8px;
   font-size: 13px;
-  width: fit-content;
+  color: #38bdf8;
 }
 
-.cert-btn:hover {
-  opacity: 0.85;
+/* LINK BUTTON */
+.certification-card a {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 12px;
+  background: #0f172a;
+  border: 1px solid #38bdf8;
+  color: #38bdf8;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 13px;
+  transition: 0.3s ease;
+}
+
+.certification-card a:hover {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .certifications-container {
+    grid-template-columns: 1fr;
+  }
 }
